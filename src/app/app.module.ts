@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { ParallaxDirective } from './parallax.directive';
 import { AgmCoreModule } from '@agm/core';
 import { HeaderComponent } from './header/header.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     ParallaxDirective,
     HeaderComponent,
+    SearchbarComponent,
   ],
   imports: [
     BrowserModule,
