@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ParallaxDirective } from './parallax.directive';
 import { AgmCoreModule } from '@agm/core';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
     ParallaxDirective,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
